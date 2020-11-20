@@ -7,9 +7,9 @@ Ini adalah shortcut mengelakkan cara implement di Infra.
 Engine auth digunakan memudahkan user tidak perlu nak login hanya dengan menggunakan 1 klik button boleh akses mana-mana 
 website yang sah dengan token yang ada
 
-Langkah 1 : Create Folder - piiyel19
-Langkah 2 : setup server.php - attach dengan db local
-Langkah 3 : Request token - mesti di insert terlebih dahulu seperti validkan user dalam sistem kita 
+- Langkah 1 : Create Folder - piiyel19
+- Langkah 2 : setup server.php - attach dengan db local
+- Langkah 3 : Request token - mesti di insert terlebih dahulu seperti validkan user dalam sistem kita 
 
 INSERT INTO oauth_clients (client_id, client_secret, redirect_uri) VALUES ("testclient", "testpass", "http://url_kalau_failed_macam_callback/");
 
